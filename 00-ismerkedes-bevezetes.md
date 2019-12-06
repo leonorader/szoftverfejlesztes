@@ -25,3 +25,11 @@ https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.
 
 ### 4.2. Eclipse
 https://www.eclipse.org/ide/
+
+## 5. Slack
+
+http://programozokgyongyei.slack.com/
+
+Telepítsétek fel az appot is! :)
+
+Ha bármi kérdésetek felmerül bármikor, akkor keressetek fel nyugodtan! :)
