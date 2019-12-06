@@ -1,6 +1,6 @@
 # Szoftverfejlesztés
 	
-A salgótarjáni Szoftverfejlesztő OKJ képzés (54 213 05) Szoftverfejlesztés tananyagegysének anyagai.
+A salgótarjáni Szoftverfejlesztő OKJ képzés (54 213 05) Szoftverfejlesztés tananyagegységének anyagai.
 
 14 elméleti és 31 gyakorlati alkalomból épül fel (alkalmanként 6 tanóra)
 
