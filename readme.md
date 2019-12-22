@@ -9,6 +9,9 @@ A salgótarjáni Szoftverfejlesztő OKJ képzés (54 213 05) Szoftverfejlesztés
 - [Specifikáció és követelménymenedzsment](02-specifikácio-es-kovetelmenymenedzsment.md) - 2019. december 13. - E
 - [Java alapok](03-java-alapok.md) - 2019. december 19 - G
 
+Kódok:
+- [03](code/03)
+
 Egyéb:
 
 - [Vadbejelentő](vadbejelento.md)
