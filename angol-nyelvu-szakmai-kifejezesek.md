@@ -97,7 +97,54 @@
 
 **OOP**: Object-Oriented Programming, olyan paradigma, objektumorientált programozás, ahol létezik az osztály és az osztályokhoz tartozó egyéb nyelvi elemek (pl.: Java)
 
+**refactoring**: refaktorálás - (általában) működő kód újrastruktúrálására, újraírása, kódminőség, kódhatékonyság érdekében - ugyanazt a funkcionalitást kell, hogy biztosítsa a kód a refaktorálás után is
 
+Mindig hagyd a kódot szebben, mint ahogy kaptad!
+
+**waterfall model**: vízesés modell - szoftverfejlesztési módszertan
+
+**spagetti code**: nem jól struktúrált, nem jól szervezett, átláthatatlan, nehezen értelmezhető kód(részlet) - tipikusan refaktorálásra szorul
+
+**smoke testing**: kódmódosítások, hibajavítások után is elvárt, hogy a rendszer összességében, még mindig helyesen működjön és minden korábban megfogalmazott teszteset lefusson
+
+**SDK**: (software development kit) - előre definiált kódok, struktúrák, (osztályok), amit az adott nyelven történő fejlesztéshez elengedhetetlenek csomagba foglalva
+
+**JDK:** (Java Development Kit) - ennek része a JRE - fejlesztéshez szükséges, és mivel része a JRE így futtatni is tud
+
+**JRE**: (Java Runtime Environment) - fejleszteni nem lehet vele, kizárólag előre lefordított Java kódokat tud futtatni
+
+**pseudocode**: olyan nyelv, ami nem egy programozási nyelv, de programot tudsz vele leírni, tervezéshez (algoritmusok tervezéséhez) használatos, nem lehet futtatni, előre definiált "szabályzat" amiben meg van határozva, hogy adott nyelvi elemeknek hogyan kell megjelennie
+
+**boilerplate**: olyan kód, ami a kódbázisban sokszor ugyanolyan szerkezetben, ugyanolyan mintával megjelenik, cél, hogy ezektől megszabaduljunk, (mert amúgy időt vesznek el) és ezzel kódduplikációt csökkentsünk (pl.: refaktorálással, segédcsomagokkal)
+
+tipikusan boilerplate kódok : getter, setter, stb
+
+**random**: véletlenszerű, pszeudorandom/valós véletlenszerű
+
+**class**: osztály, azonosos tulajdonságokkal rendelkezik, (tervrajz az objektumok létrehozásához)
+
+**package**: csomag, valamilyen logika alapján összetartozó osztályok összesége (konkrétan mappaként valósul meg a fájlrendszerben)
+
+**getter:** osztály (private, protected, stb) változóinak értékeinek lekérésére, hogy az osztályon kívül is elérhető legyen az értéke
+
+**setter**: osztály (private, protected, stb)  változóinak értékeinek beállítására, vagy módosítására, hogy az osztályon kívülről is változtathatók legyenek
+
+**hashcode**: 
+
+- hashCode metódus: az objektumnak egyedi azonosítót generál
+- hash: egyedi és egyértelmű azonosító
+
+**markdown**: leíró nyelv, megkönnyíti a dokumentumok formázását, széleskörben használt fejlesztési világában
+
+**WYSIWYG editor**: what you see is what you get szerkesztő
+
+**ArrayList**: egy olyan osztály, ami megvalósítja a List interface-t, azaz egy adatszerkezet, amiben egyforma típusú elemeket tárolhatunk, és fontos az elemek sorrendje
+
+**framework**: keretrendszer, ami előre elkészített, újrafelhasználható elemeket tartalmaz, adott funkcionalitás fejlesztését megkönnyíti/ fejlesztési időt lecsökkenti, pl.: Bootstrap (CSS), .NET (C#), Spring (Java)
+
+**recursive**: rekurzív, önmagát hívja meg pl.: algoritmus)
+
+**entity**: entitás, szoftver (azon belül egy adott osztályt) és adatbázis közötti kapcsolatot teremti meg ((mapping(leképzés) db - software))
 
 ---
 
@@ -105,7 +152,18 @@
 
 
 
-
+```
+// 
+// Dear maintainer:
+// 
+// Once you are done trying to 'optimize' this routine,
+// and have realized what a terrible mistake that was,
+// please increment the following counter as a warning
+// to the next guy:
+// 
+// total_hours_wasted_here = 42
+// 
+```
 
 
 
