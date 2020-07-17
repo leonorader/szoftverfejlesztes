@@ -5,7 +5,6 @@ A salgótarjáni Szoftverfejlesztő OKJ képzés (54 213 05) Szoftverfejlesztés
 - [Információk](info.md)
 - [Angol nyelvű szakmai kifejezések](angol-nyelvu-szakmai-kifejezesek.md)
 
-
 - [A szoftverfejlesztési folyamat](a-szoftverfejlesztesi-folyamat.md)
 - [Specifikáció és követelménymenedzsment](specifikácio-es-kovetelmenymenedzsment.md)
 - [Szoftverrendszerek tervezése](tervezes.md)
