@@ -1,6 +1,6 @@
 # Implementáció és verziókövetés
 
-## Implementáció
+## 1. Implementáció
 
 Az implementáció a programkód elkészítése a rendszertervnek
 megfelelően adott programozási nyelven
@@ -14,7 +14,7 @@ megfelelően adott programozási nyelven
 Az implementációt verifikáció zárja, amelyben ellenőrizzük, hogy a
 szoftver teljesíti-e a tervben megszabott funkciókat
 
-## Újrahasznosítás
+## 2. Újrahasznosítás
 
 Az implementáció általában nagyban támaszkodik újrahasznosításra
 - garantálja, hogy jó, hibamentes megoldások kerüljenek
@@ -28,7 +28,7 @@ használhatja újra, de más fejlesztő által megvalósított elemeket
 - pl. nyílt forráskódú programcsomagok
 - általában előre fordított formában állnak rendelkezésre
 
-## Integrált fejlesztőkörnyezet
+## 3. Integrált fejlesztőkörnyezet
 
 Az implementációhoz megfelelő integrált fejlesztőkörnyezet (IDE)
 szükséges (pl. Eclipse, Visual Studio, Xcode, NetBeans)
@@ -41,7 +41,7 @@ manager)
 - a tesztelést nyomkövetéssel (debugging), egységtesztek (unit
 test), illetve teljesítményteszteléssel támogatja 
 
-## Csapatban történő implementáció
+## 4. Csapatban történő implementáció
 
 A szoftverek általában csapatban készülnek
 - az implementáció egy egységes kódolási stílus mentén történik,
@@ -55,7 +55,7 @@ módosítja
     - dokumentálja (kommentezi), illetve teszteli a saját kódját
 (elkészíti a megfelelő egységteszteket)
 
-## Kódálási stílus
+## 5. Kódálási stílus
 
 A kódolási stílus (coding style) egy szabályhalmaz, amely a
 forráskód megjelenésére (pl. elnevezés, indentálás, szóközök
@@ -83,7 +83,7 @@ A kódolási konvenció rákényszeríthető a programozóra kódolási
 stílus ellenőrző eszköz segítségével
 - pl. C++Test, StyleCop
 
-### Kommentezés
+### 6. Kommentezés
 
 A kódot a stílusnak megfelelő kommenttel kell ellátni
 - alapvető fontosságú az interfész kommentezése (osztályok,
@@ -108,7 +108,7 @@ rálátása a kódra
     - törekedni kell, hogy minél nagyobb kódmennyiség legyen
 egyszerre áttekinthető (kevesebb helyköz és komment)
 
-## Statikus kódelemzés
+## 7. Statikus kódelemzés
 
 A statikus kódelemzés (static code analysis) lehetővé teszi, hogy a
 forráskódot még a fordítás előtt előfeldolgozzuk, és a lehetséges
@@ -122,7 +122,7 @@ ellenőrzését biztosítja
 karbantarthatóságának, összetettségének mértékét (pl. cyclomatic
 complexity, class coupling)
 
-## Kód-újratervezés
+## 8. Kód-újratervezés
 
 A kód-újratervező (refactoring) eszközök célja, hogy a kód
 szerkezetét mindig konzisztens módon, a viselkedés befolyásolása
@@ -136,7 +136,7 @@ vagy ősosztály kiemelése, tervezési minta bevezetése
 cél
 - alkalmas bizonyos rejtett hibák, vagy sebezhetőségek felfedésére
 
-## Verziókövetési rendszerek
+## 9. Verziókövetési rendszerek
 
 A verziókövető rendszerek (revision control system) célja a forráskód
 változásának követése, és a korábbi állapotok megőrzése
@@ -165,7 +165,7 @@ valamint az ágak összeillesztését (merge)
 
 ![](images/verziokovetesi-rendszer-pelda.png)
 
-### Elosztott verziókövető rendszerek
+### 9.1. Elosztott verziókövető rendszerek
 A központosított verziókelezők mellett elterjedtek az elosztott
 (distributed) rendszerek
 - nagyobb szabadságot adnak a tárolók kezelésében, a
