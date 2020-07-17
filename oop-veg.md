@@ -1,6 +1,6 @@
 # Objektumorientált tervezés: végrehajtás
 
-## Végrehajtás modellezése
+## 1. Végrehajtás modellezése
 
 Az objektumorientált programokat egymással kapcsolatban álló objektumok alkotják
 - a lehetséges kommunikációs pontokat az osztálydiagramban feltérképeztük
@@ -9,7 +9,7 @@ Az objektumorientált programokat egymással kapcsolatban álló objektumok alko
 
 A program működése során történő, objektumok és osztályok közötti interakciós folyamatokat kommunikációs, szekvencia, illetve tevékenység diagrammal modellezhetjük
 
-## Kommunikációs diagram
+## 2. Kommunikációs diagram
 
 Az UML kommunikációs diagram (communications diagram) célja az objektumok közötti kommunikáció sorrendjének megállapítása
 - ábrázolja az objektumokat és a köztük lévő kommunikációt, üzenetátadást (metódushívás, eseménykiváltás)
@@ -34,7 +34,7 @@ Segíthet az objektumok viselkedési mintájának meghatározásában (ugyanakko
 
 ![](images/kommunikacios-diagram-pelda.png)
 
-## Szekvencia diagram
+## 3. Szekvencia diagram
 
 Az UML szekvencia diagram (sequence diagram) célja az objektumok közötti interakció időrendi ábrázolása
 - tartalmazza a kommunikációs diagram elemeit, ugyanakkor nem sorrendiséget ad a kommunikációra, hanem időbeli lefolyást ábrázol
