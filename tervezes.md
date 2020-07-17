@@ -94,6 +94,8 @@ adnunk (pl. adatfájl, adatbázis, konfigurációs fájl, felhasználó
 adatbázisok tervezhetőek egyed-kapcsolati modellel, vagy UML
 adatmodellel)
 
+- példák!
+
 ## Utazási ügynökség - példa
 
 ### Feladat

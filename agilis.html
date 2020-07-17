@@ -1,0 +1,77 @@
+<p>Szoftverfejlesztési módszertanok</p>
+<p>Amellett, hogy a szoftverfejlesztés betartja az életciklus fázisait, a folyamat lefolyása különféle módokon történhet, amiket szoftverfejlesztési módszereknek nevezünk</p>
+<ul>
+<li>klasszikus módszerek: vízesés, prototipizálás, inkrementális, iteratív, spirális, V-Model</li>
+<li>agilis módszerek: Scrum, Lean, Kanban, XP (extreme programming), RAD (rapid application development)</li>
+<li>speciális célú módszerek: BDD (behavior-driven development), TDD (test-driven development), FDD (feature-driven development)</li>
+<li>formális módszerek: B-módszer</li>
+</ul>
+<p>A szoftverfejlesztési modell határozza meg az életciklus egyes fázisai közötti kapcsolatot, időbeliséget</p>
+<h4 id="6-4-1-v-zes-s-modell">6.4.1. Vízesés modell</h4>
+<p>A legegyszerűbb fejlesztési modell a vízesés (waterfall) modell, amelyben az egyes fázisok lineárisan követik egymást</p>
+<ul>
+<li>előre megtervezi a projekt időtartamát, ráfordításait</li>
+<li>elvárja minden fázis megfelelő dokumentálását, amely tartalmazza annak eredményeit</li>
+<li>előnyei: jól strukturált, dokumentált folyamatot biztosít</li>
+<li>hátrányai: nem teszi lehetővé a követelmények megváltoztatását, nem készül fel az esetleges nehézségekre (nincs kockázatkezelés)</li>
+</ul>
+<p><img src="images/vizeses.jpg" alt="Vízesés modell"></p>
+<h4 id="6-4-2-agilis-szoftverfejleszt-s">6.4.2. Agilis szoftverfejlesztés</h4>
+<p>Az agilis szoftverfejlesztés (agile software development) célja a gyors alkalmazásfejlesztés megvalósítása, inkrementális alapon</p>
+<ul>
+<li>a szoftver folyamatos fejlesztés és kiadás alatt áll (continuous delivery), a sebesség állandó, a változtatások minden lépésben beépíthetőek (welcome changes)</li>
+<li>a működő szoftver az előrehaladás mérőeszköze, előtérben az egyszerűség, ugyanakkor folyamatos odafigyelés a megfelelő tervezésre, optimalizációra</li>
+<li>a fejlesztést általában önszervező, kis csapatok végzik, megosztott felelősséggel, folytonos interakcióval, gyors visszajelzésekkel</li>
+</ul>
+<p>Az <a href="https://agilemanifesto.org/">Agilis Kiáltvány</a> a következőket mondja ki:</p>
+<p>Azzal leplezzük le a szoftverfejlesztés jobb módjait, hogy csináljuk és segítünk másoknak is csinálni. Ezen a munkán keresztül következő értékekhez jutottunk el:</p>
+<ul>
+<li>Egyének és kölcsönhatások előnyben részesítése a folyamatok- és eszközökkel szemben</li>
+<li>Működő szoftver előnyben részesítése az átfogó dokumentációval szemben</li>
+<li>Ügyféllel való együttműködés előnyben részesítése a szerződéses megállapodással szemben</li>
+<li>Változásokra adandó válasz előnyben részesítése egy terv követésével szemben
+Habár a jobb oldali elemekben is van érték, mi sokkal értékesebbnek tartjuk a baloldali elemeket. (© 2001, Beck, K., et. al.)</li>
+</ul>
+<p>Az agilis fejlesztés</p>
+<ul>
+<li>előnyei: jól alkalmazkodik a változtatásokhoz, hatékonyabbá teszi a fejlesztési folyamatot</li>
+<li>hátrányai: egyes tényezői nehezen megvalósíthatóak, különösen nagyobb szoftverek esetén a megvalósításhoz képzett fejlesztők kellenek, a dokumentáció hiánya megnehezíti a későbbi evolúciót
+Az agilis fejlesztés elveit több speciálisabb módszertan ültette át a gyakorlatba</li>
+<li>pl. Extreme programming, Scrum, Kanban, Lean</li>
+<li>a módszertanok nem szeparáltak, a gyakorlatban sokszor vegyítve alkalmazzák őket</li>
+</ul>
+<h5 id="6-4-2-1-extreme-programming">6.4.2.1. Extreme programming</h5>
+<p>Az Extreme programming (XP) a gyors fejlesztési ciklusokra támaszkodik</p>
+<ul>
+<li>elvárja a követelmények viselkedés alapú felbontásával (BDD), a tesztek előre történő megadását (TDD), a folyamatos integrációt és refaktorálást</li>
+<li>támogatja a párban történő programozást</li>
+</ul>
+<h5 id="6-4-2-2-scrum">6.4.2.2. Scrum</h5>
+<p>Az agilis fejlesztés menedzselését az egyes változatok előállítása szempontjából közelítik meg, amelyhez a Scrum módszer ad egy általános modellt, amelynek fő lépései:</p>
+<ol>
+<li>architekturális tervezés, amely megadja a szoftver magas szintű vázát</li>
+<li>futamok (sprint), amelyek az egyes változatokat állítják elő, és rögzített hosszúságúak (2-4 hét)</li>
+<li>projektzárás, a szükséges dokumentáció előállítása
+Nincs projektmenedzser, de minden futamnak van felelőse (scrum
+master), akinek a személye futamonként változik</li>
+</ol>
+<p>Minden futam egy összetett folyamat megtervezett lépésekkel</p>
+<ul>
+<li>feladatok felmérése (select), lefejlesztése (develop), áttekintése (review), kiértékelése (assess)</li>
+<li>a megvalósítandó funkciók a termékgazdával egyetértésben kerülnek kiválasztásra a teendők listájából (product backlog)</li>
+<li>naponta rövidebb megbeszélések (stand-up meeting) a teljes csapat számára</li>
+<li>ciklus elején/végén hosszabb megbeszélések (sprint planning, sprint review), valamint visszatekintés (retrospective) a termékgazdával</li>
+</ul>
+<h5 id="6-4-2-3-kanban">6.4.2.3. Kanban</h5>
+<p>A Kanban módszer célja a döntéshozatal elősegítése, és a fejlesztési folyamat gyors áttekintése</p>
+<ul>
+<li>eszköze a Kanban tábla (Kanban board), amely vizualizálja a fejlesztési feladatok állását</li>
+<li>elvei:<ul>
+<li>kiinduló állapot áttekintése, folyamatos, kísérleti továbbfejlesztés</li>
+<li>fókuszban a felhasználói elvárások, folyam*atos visszajelzés</li>
+<li>egyéni döntéshozatal, önszervezés támogatása, tanulás és fejlődés</li>
+<li>munkamennyiség és kiegészítő tevékenységek korlátozása</li>
+</ul>
+</li>
+</ul>
+<p><img src="images/kanban.jpg" alt="Kanban board"></p>
