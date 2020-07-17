@@ -1,6 +1,6 @@
 # Tervezés
 
-## Szoftverrendszer
+## 1. Szoftverrendszer
 Szoftvernek nevezzük a program(ok), dokumentáció(k),
 konfiguráció(k), valamint adatok együttese
 - mivel a megoldandó feladatok összetettek lehetnek, a megoldást
@@ -12,7 +12,7 @@ szoftverrendszernek (software system)
 - a rendszerben jelen lévő programokat nevezzük a rendszer
 komponenseinek (component)
 
-## Komponensek
+## 2. Komponensek
 A szoftver komponens egy adott funkcionalitásért felelő, fizikailag
 elkülönülő része a rendszernek
 - önállóan (újra)felhasználható, telepíthető
@@ -41,7 +41,7 @@ pontot az alkalmazásba
 gyűjteménye (nem végrehajtható), objektumorientált
 környezetben osztályok gyűjteménye (class library)
 
-## Komponensdiagram
+## 3. Komponensdiagram
 A szoftverrendszer komponenseit UML komponensdiagram
 (component diagram) segítségével ábrázolhatjuk
 - ismerteti a rendszer komponenseit, a szolgáltatott/elvárt
@@ -55,7 +55,7 @@ Példa:
 
 ![](images/tervezes-komponensdiagram-pelda.png)
 
-## Telepítési diagram
+## 4. Telepítési diagram
 A szoftverrendszerek komponensei akár különböző hardver
 eszközökre is kihelyezhetőek, amelyeken interakcióba lépnek a
 környezetükkel (más szoftverekkel)
@@ -80,7 +80,7 @@ adatbázis-kezelő
 
 ![](images/tervezes-telepitesi-diagram/pelda.png)
 
-## Adatformátumok
+## 5. Adatformátumok
 A szoftverrendszer tervezése (system design) mellett foglalkoznunk
 kell a rendszer által kezelt adatok kezelésének módjával,
 formátumának meghatározásával, ez az adattervezés (data design)
@@ -96,9 +96,9 @@ adatmodellel)
 
 - példák!
 
-## Utazási ügynökség - példa
+## 6. Utazási ügynökség - példa
 
-### Feladat
+### 6.1. Feladat
 Készítsük el egy utazási ügynökség apartmanokkal foglalkozó
 rendszerét.
 - az apartmanok épületekben találhatóak, amelyek városokban
@@ -111,7 +111,7 @@ keresztül apartmanokat kereshetnek, foglalhatnak
 szerkeszthetik az apartmanok adatait, képeit, valamint kezelhetik
 a foglalásokat
 
-### Tervezés
+### 6.2. Tervezés
 A rendszerben található egy webes, valamint egy adminisztrációs
 kliens, amelyet külön alkalmazások valósítanak meg
 - A webes kliens egy weblap, amelyet egy webszerverrel futtatunk, és
@@ -151,7 +151,7 @@ tengerpart távolság, tengerpart-típus (számként), jellemzők
 
 ![](images/tervezes-adattarolas-ugynokseg.png)
 
-## Rendszerterv
+## 7. Rendszerterv
 
 A tervezés eredménye a szoftver rendszerterve (software design
 description, SDD), amely tartalmazza:
