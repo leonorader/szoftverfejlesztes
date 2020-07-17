@@ -265,7 +265,7 @@ _Amennyiben_ a játék elfogadta a lépésemet,
 _ha_ az adott sorban, oszlopban, vagy átlósan kijön a 3 találat,
 _akkor_ győztem a játékban.
 
-2. 
+3. 
 _Amennyiben_ a játék elfogadta a lépésemet,
 _ha_ az adott sorban, oszlopban, vagy átlósan nem jön ki a 3 találat,
 _akkor_ a másik játékos következik.
