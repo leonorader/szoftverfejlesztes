@@ -59,9 +59,7 @@
 
 **thread**: futási szál
 
-**asynchronous**: aszinkron 
-
-	- kizárólag több szált kezelni képes környezetben lehetséges
+**asynchronous**: aszinkron - kizárólag több szált kezelni képes környezetben lehetséges
 
 **binary**: bináris, kettős, kétalakú, kétállapotú
 
