@@ -1,6 +1,6 @@
 # Tesztelés
 
-## Verifikáció és validáció
+## 1. Verifikáció és validáció
 
 A szoftver verifikációja és validációja, vagy minőségbiztosítása (quality control) azon folyamatok összessége, amelyek során ellenőrizzük, hogy a szoftver teljesíti-e az elvárt követelményeket, és megfelel a felhasználói elvárásoknak 
 - a verifikáció (verification) ellenőrzi, hogy a szoftvert a megadott funkcionális és nem funkcionális követelményeknek megfelelően valósították meg 
@@ -8,7 +8,7 @@ A szoftver verifikációja és validációja, vagy minőségbiztosítása (quali
 - a validáció (validation) ellenőrzi, hogy a szoftver megfelel-e a felhasználók elvárásainak, azaz jól specifikáltuk-e eredetileg a követelményeket
     - alapvető módszere a tesztelés
 	
-### Módszerei
+### 1.1. Módszerei
 
 Az ellenőrzés végezhető
 - statikusan, a modellek és a programkód áttekintésével
@@ -19,7 +19,7 @@ Az ellenőrzés végezhető
     - felfedheti a statikus ellenőrzés során észre nem vett hibákat, illetve a programegységek együttműködéséből származó hibákat
     - lehetőséget ad a teljesítmény mérésére
 	
-## Célja
+## 2. Célja
 A tesztelés célja a szoftverhibák felfedezése és szoftverrel szemben
 támasztott minőségi elvárások ellenőrzése
 - futási idejű hibákat (failure), működési rendellenességeket
@@ -30,9 +30,9 @@ alapján történik
 körülmény között helyáll, de felfedheti a hibákat adott
 körülmények között
 
-ISTQB erroe, defct, stb
+ISTQB error, defect, stb
 
-## Teszteslési terv és tesztesetek
+## 3. Teszteslési terv és tesztesetek
 A teszteléshez tesztelési tervet (test plan) készítünk, amely ismerteti
 a tesztelés felelőseit, folyamatát, technikáit és céljait.
 
@@ -49,11 +49,11 @@ megadhatjuk melyik teszteset milyen követelményt ellenőriz
 
 A tesztesetek eredményeiből készül a tesztjelentés (test report)
 
-## A tesztelési folyamat
+## 4. A tesztelési folyamat
 
 ![](images/tesztelesi-folyamat.png)
 
-## Tesztelés lépései
+## 5. Tesztelés lépései
 
 A tesztelés nem a teljes program elkészülte után, egyben történik,
 hanem általában 3 szakaszból áll:
@@ -81,7 +81,7 @@ mindenképpen manuálisan kell végrehajtanunk
 
 ![](images/teszteles-lepesei.png)
 
-## Nyomonkövetés
+## 6. Nyomonkövetés
 
 A tesztelést elősegíti a nyomkövetés (debugging), amely során a
 programot futás közben elemezzük, követjük a változók állapotait, a
@@ -96,7 +96,7 @@ nyilvántartásával
 A fejlesztőkörnyezetbe épített eszközök mellett külső programokat is
 használhatunk (pl. gdb)
 
-## Egységtesztek
+## 7. Egységtesztek
 Az egységteszt során törekednünk kell arra, hogy a programegység
 összes funkcióját ellenőrizzük, egy osztály esetén
 - ellenőrizzük valamennyi (publikus) metódust
@@ -123,7 +123,7 @@ jelenthetnek a nagy számok
 Az egységtesztet az ismétlések és a számos kombináció miatt
 célszerű automatizálni (pl. a teszt implementációjával)
 
-## Teszteslési keretrendszerek
+## 8. Teszteslési keretrendszerek
 
 Az egységtesztek automatizálását, és az eredmények kiértékelését
 hatékonyabbá tehetjük tesztelési keretrendszerek (unit testing
@@ -140,7 +140,7 @@ az eset sikeres (pass), egyébként sikertelen (fail)
 
 ![](images/tesztelesi-keretrendszerek.png)
 
-## Kód lefedettség
+## 9. Kód lefedettség
 
 A tesztgyűjtemények által letesztelt programkód mértékét nevezzük
 kód lefedettségnek (code coverage)
@@ -166,7 +166,7 @@ A kiadásteszt és a felhasználói teszt során a szoftvernek már
 - a teszt magába foglalja a kihelyezést (pl. telepítés) is
 
 
-## Programváltozatok
+## 10. Programváltozatok
 Az implementáció és tesztelés során a szoftver különböző változatait
 tartjuk nyilván:
 - pre-alfa: funkcionálisan nem teljes, de rendszertesztre alkalmas
@@ -189,7 +189,7 @@ válik a (félkész) szoftver
     - a kiadást követően a program további változásokon eshet át
 (javítások, programfunkció bővítés)
 
-## Teljesítménytesztek
+## 11. Teljesítménytesztek
 A teljesítménytesztek (performance test) során a rendszer
 teljesítményét mérjük
 - ezáltal a rendszer megbízhatóságát és teljesítőképességének
@@ -202,7 +202,7 @@ tűrőképességét (stress test)
 végezzük, amellyel megállapítható a rendszer skálázhatósága
 (capacity test)
 
-## TDD - Tesztvezérelt fejlesztés
+## 12. TDD - Tesztvezérelt fejlesztés
 A tesztvezérelt fejlesztés (test-driven development, TDD) egy olyan
 fejlesztési módszertan, amely a teszteknek ad elsőbbséget a fejlesztés
 során
@@ -221,6 +221,6 @@ minden funkcióra ki kell térniük
 ![](images/tdd.png)
 
 
-## A hibajavítás költségei
+## 13. A hibajavítás költségei
 
 ![](images/hibajavitas.png)
