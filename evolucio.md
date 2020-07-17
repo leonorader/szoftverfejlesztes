@@ -1,6 +1,6 @@
 # Evolúció
 
-## Változások kezelése
+## 1. Változások kezelése
 
 A program használata során számos változás következhet be, amely
 hatására tovább kell fejlesztenünk a szoftver, ez az evolúció
@@ -15,7 +15,7 @@ prototípus létrehozásával
 - a módosítási lehetőségek nyitottan hagyásával (change
 tolerance), pl. inkrementális fejlesztéssel
 
-## Az evolúciós életciklus
+## 2. Az evolúciós életciklus
 
 A szoftver evolúció lépésekben történik, amelyek a szoftver újabb
 kiadását (release) eredményezik
@@ -36,7 +36,7 @@ Az evolúció idejét, költségeit több tényező is befolyásolja:
 - a dokumentáció és a programkód minősége
 - a program kora és struktúrája
 
-## Programverziók
+## 3. Programverziók
 
 A szoftver az evolúció során több kiadott változattal (release)
 rendelkezik, amelyeket verziószámmal látunk el
@@ -50,7 +50,7 @@ A verziószám további információk egészíthetik ki, pl.
 major.minor[.maintenance[.build]], vagy
 major.minor[.build[.revision]] formában
 
-## Lehman törvények
+## 4. Lehman törvények
 
 A szoftver változási folyamatokra érvényes általános elveket a
 Lehman törvények fogalmazzák meg
@@ -63,7 +63,7 @@ funkcióval rendelkezik
 - az evolúciós folyamatban szükséges a visszajelzések, amelyeket
 figyelembe kell venni
 
-## Legacy rendszerek
+## 5. Legacy rendszerek
 
 A legacy rendszerek olyan régi szoftverrendszerek, amely még
 mindig hasznosak és nélkülözhetetlenek
