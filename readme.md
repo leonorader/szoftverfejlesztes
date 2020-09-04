@@ -14,6 +14,11 @@ A salgótarjáni Szoftverfejlesztő OKJ képzés (54 213 05) Szoftverfejlesztés
 - [Szoftver evolúció](evolucio.md)
 - [Szoftverfejlesztési módszertanok](szoftverfejlesztesi-modszertanok.md)
 
+Leírások:
+- [Osztályok, entitások](tutorials/osztalyok.md)
+- [MVC CRUD app 1.](tutorials/mvc-crud.md)
+- [MVC CRUD app 2.](tutorials/mvc-crud-2.md)
+
 Példák, egyéb:
 
 - [Információk](info.md)
