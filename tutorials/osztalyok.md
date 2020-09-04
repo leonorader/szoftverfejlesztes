@@ -1,5 +1,7 @@
 # Osztályok és entitások létrehozása
 
+Az alábbi tutorial használható a gyakorlati vizsgák első két feladatához is! :)
+
 Lehet fejlesztői környezet nélkül is, de célszerű használni, mert segíti a fejlesztést több szempontból is. Az alábbiakban az Eclipse szerint fogom bemutatni.
 
 ## Projekt és fájl létrehozása
@@ -225,6 +227,25 @@ A @Table annotáció name paraméterén keresztül azt adhatjuk meg, hogy az ada
 
 Ezeket se felejtsük el importálni a **javax.persistence** csomagból.
 
+### Egyedi azonosító felvétele
+
+Egy entitásnak elengedhetetlen, hogy rendelkezzen egyedi azonosítóval. Általában célszerű Long típusú azonosítót felvenni, és @Id annotációval ellátni:
+
+```java
+@Id
+private Long id;
+```
+Itt se felejtsük el az importálást a **javax.persistence** csomagból.
+
+### Null értékek
+Szokás, hogy adott tulajdonságokat megkössünk azzal, hogy nem vehet fel null értékeket!
+Ekkor az adott tulajdonságot el kell látni az alábbi annotációval:
+
+```java
+@Column(nullable = false)
+private Boolean isDone;
+```
+
 ### Típusok kiegészítése
 
 #### Szöveges típus esetén
@@ -233,6 +254,13 @@ Szöveges típus esetén szabályozható, hogy a táblában a mező milyen hossz
 
 ```java
 @Column(length = 200)
+private String name;
+```
+
+Ha nem lehet null értéke, akkor kiegészíthető így:
+
+```java
+@Column(length = 200, nullable = false)
 private String name;
 ```
 
